@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #90CB41;
+    text-align: center;
+    margin-top: 126px;
+    margin-bottom: 26px;
+}
+
+img {
+    width: 30%;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+input {
+    background: #90CB41;
+    border: 1px solid #000000;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 342px;
+    padding-left: 20px;
+    height: 74px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+button {
+    background: #000000;
+    box-shadow: 0px 18px 40px #90cb41;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 342px;
+    height: 72px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+/* RESPONSIVIDADE P CELULARES OU TELAS MENORES */
+@media (max-width: 600px) {
+    h1,
+    h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    input,
+    button {
+        font-size: 28px;
+        height: 60px;
+    }
+
+    img {
+        width: 60%;
+    }
+}
